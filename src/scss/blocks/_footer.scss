@@ -1,0 +1,27 @@
+.footer {
+    padding: 38px 120px 60px 0px;
+    background: rgba(255, 255, 255, 0.25);
+    &__left {
+        display: flex;
+        flex-direction: column;
+    }
+    &__links {
+        width: 250px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__credential {
+        margin-top: 79px;
+        font-weight: 600;
+        font-size: 25px;
+        text-align: right;
+    }
+    &__social {
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,63 @@
+.bg {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 40px;
+    &_promo {
+        padding: 45px 60px 246px 60px;
+    }
+    &_about {
+        width: 748px;
+        padding: 46px 68px 86px 60px;
+    }
+    &_dev {
+        width: 478px;
+        margin-right: 30px;
+        display: flex;
+        flex-shrink: 0;
+        img {
+            height: 100%;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    &_amazenews {
+        width: 1400px;
+        padding: 19px 233px 19px 0;
+        margin-top: 50px;
+    }
+    &_faq {
+        width: 1800px;
+        padding: 78px 86px 94px 87px;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        margin-right: 100px;
+    }
+}
+
+@media(max-width: 1366px) {
+    .bg {
+        &_promo {
+            padding: 45px 60px 170px 60px;
+        }
+        &_about {
+            width: 1000px;
+        }
+        &_dev {
+            width: 450px;
+            margin-right: 30px;
+        }
+        &_amazenews {
+            width: 1400px;
+            padding: 19px 233px 19px 0;
+            margin-top: 50px;
+        }
+        &_faq {
+            width: 1800px;
+            padding: 78px 86px 94px 87px;
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 0;
+            margin-right: 100px;
+        }
+    }
+}

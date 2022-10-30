@@ -1,0 +1,91 @@
+.menu {
+    background: linear-gradient(45deg, rgba(43, 60, 218, 0.5) 0%, rgba(193, 101, 221, 0.5) 100%);
+    width: 350px;
+    height: 100%;
+    padding: 60px 0 112px 91px;
+    &__content {
+        display: none;
+        &_active {
+            display: flex;
+        }
+    }
+    &__nav {
+        margin-top: 75px;
+        &-item {
+            position: relative;
+            margin-top: 11px;
+            font-weight: 600;
+            font-size: 30px;
+            color: #FFFFFF;
+            z-index: 2;
+            cursor: pointer;
+            transition: 0.3s all;
+            &:nth-child(1) {
+                margin-top: 0;
+            }
+            &:nth-child(5) {
+                margin-top: 462px;
+            }
+            &:hover {
+                color: #efefef;
+                margin-left: 2px;
+            }
+            &_active {
+                &:hover {
+                    color: #fff;
+                }
+                &:after {
+                    content: '';
+                    position: absolute;
+                    width: 350px;
+                    height: 54px;
+                    background: #0167FF;
+                    top: -7px;
+                    left: -90px;
+                    opacity: 0.06;
+                    z-index: -1;
+                }
+            }
+            &:before {
+                content: '';
+                display: block;
+                position: absolute;
+                width: 28px;
+                height: 28px;
+                left: -48px;
+                top: 7px;
+            }
+            &_1 {
+                &:before {
+                    background: url('../icons/cabinet/profile.svg') center center/contain no-repeat;
+                }
+            }
+            &_2 {
+                &:before {
+                    background: url('../icons/cabinet/SFIA.svg') center center/contain no-repeat;
+                }
+            }
+            &_3 {
+                &:before {
+                    background: url('../icons/cabinet/friends.svg') center center/contain no-repeat;
+                }
+            }
+            &_4 {
+                &:before {
+                    background: url('../icons/cabinet/chat.svg') center center/contain no-repeat;
+                }
+            }
+            &_5 {
+                &:before {
+                    background: url('../icons/cabinet/settings.svg') center center/contain no-repeat;
+                }
+            }
+            &_6 {
+                &:before {
+                    background: url('../icons/cabinet/security.svg') center center/contain no-repeat;
+                }
+            }
+        }
+    }
+}
+

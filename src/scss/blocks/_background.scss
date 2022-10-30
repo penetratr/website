@@ -1,0 +1,8 @@
+.background {
+    &_first {
+        background: url('../img/bg_1.jpg') center center/cover no-repeat;
+    }
+    &_second {
+        background: url('../img/bg_2.jpg') center center/cover no-repeat;
+    }
+}

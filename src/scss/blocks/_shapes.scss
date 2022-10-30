@@ -1,0 +1,10 @@
+.vector {
+    margin-top: 115px;
+    border: solid $text-color;
+    border-width: 0 7px 7px 0;
+    width: 65px;
+    height: 65px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    cursor: pointer;
+}

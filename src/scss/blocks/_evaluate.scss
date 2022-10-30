@@ -1,0 +1,19 @@
+.evaluate {
+    padding: 60px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__subtitle {
+        width: 962px;
+        margin-top: 34px;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 37px;
+        color: $text-color;
+    }
+    &_content {
+        width: 962px;
+    }
+}

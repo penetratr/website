@@ -1,0 +1,11 @@
+.advantage {
+    padding: 80px;
+    &__subtitle {
+        margin-top: 41px;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 46px;
+        text-align: center;
+        color: $text-color;
+    }
+}

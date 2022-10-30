@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: $text-color;
+}
+
+button {
+    border: none;
+    background: none;
+    display: block;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.btn {
+    &_dark {
+        width: 140px;
+        height: 62px;
+        background: linear-gradient(72.57deg, rgba(128, 140, 255, 0.7) 11.14%, rgba(94, 54, 158, 0.7) 75.67%), rgba(255, 255, 255, 0.5);
+        border-radius: 20px;
+        font-weight: 600;
+        font-size: 30px;
+        color: $white;
+        text-align: center;
+        transition: 0.8s all;
+        &:hover {
+            background: $white;
+            color: rgb(128, 140, 255);
+        }
+    }
+    &_try {
+        width: 240px;
+        height: 62px;
+        margin-right: 26px;
+    }
+    &_light {
+        width: 240px;
+        height: 62px;
+        border: 3px solid $white;
+        border-radius: 20px;
+        font-weight: 600;
+        font-size: 30px;
+        color: #FFFFFF;
+        text-align: center;
+        transition: 0.3s all;
+        &:hover {
+            background: rgb(128, 140, 255);
+            border: none;
+        }
+    }
+}
+
+
+.logo {
+    margin-left: 137px;
+    font-weight: 500;
+    font-size: 60px;
+    cursor: pointer;
+    &_cabinet {
+        margin-left: 40px;
+        color: #fff;
+    }
+}
+
+@media(max-width: 1820px) {
+    .container {
+        max-width: 1300px;
+    }
+    .btn {
+        &_dark {
+            width: 136px;
+            height: 60px;
+            font-size: 28px;
+        }
+        &_try {
+            width: 236px;
+            height: 60px;
+            font-size: 28px;
+        }
+        &_light {
+            width: 236px;
+            height: 60px;
+            font-size: 28px;
+        }
+    }
+    
+    .logo {
+        margin-left: 130px;
+        font-size: 55px;
+        &_cabinet {
+            margin-left: 40px;
+            color: #fff;
+        }
+    }
+}
+
+@media(max-width: 1366px) {
+    .container {
+        max-width: 1000px;
+    }
+    
+    .logo {
+        margin-left: 100px;
+        font-size: 50px;
+        &_cabinet {
+            margin-left: 40px;
+            color: #fff;
+        }
+    }
+}

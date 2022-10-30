@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__links {
+        width: 495px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-item {
+            font-weight: 600;
+            font-size: 30px;
+            transition: 0.3s all;
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+}
+
+@media(max-width: 1366px) {
+    .header {
+        &__links {
+            width: 400px;
+            &-item {
+                font-size: 28px;
+            }
+        }
+    }
+}

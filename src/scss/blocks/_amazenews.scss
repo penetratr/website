@@ -1,0 +1,36 @@
+.amazenews {
+    padding: 60px;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__title {
+            text-align: left;
+            font-weight: 800;
+            font-size: 75px;
+        }
+        &__subtitle {
+            margin-top: 18px;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 37px;
+        }
+        &__date {
+            margin-top: 32px;
+            font-weight: 600;
+            font-size: 30px;
+        }
+        &__shape {
+            margin-right: 115px;
+            img {
+                height: 362px;
+            }
+        }
+    }
+}
