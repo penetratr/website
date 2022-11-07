@@ -512,7 +512,7 @@ ul {
   margin-top: 0;
 }
 .menu__nav-item:nth-child(5) {
-  margin-top: 462px;
+  margin-top: 220px;
 }
 .menu__nav-item:hover {
   color: #efefef;
@@ -703,8 +703,8 @@ select {
 }
 .sfia__pdf-bg {
   display: flex;
-  width: 673px;
-  height: 808px;
+  width: 500px;
+  height: 500px;
   background: #FFFFFF;
   opacity: 0.75;
   border-radius: 20px;
@@ -755,4 +755,57 @@ select {
 }
 .sfia__profile-green {
   margin-left: 13px;
+}
+.chat_history {
+  position: absolute;
+  width: 340px;
+  height: 570px;
+  left: 120px;
+  top: 150px;
+
+  background: rgb(255,255,255,0.5);
+  border-radius: 20px;
+}
+.chat_open {
+  position: absolute;
+width: 520px;
+height: 570px;
+left: 350px;
+top: 0px;
+
+background: #FFFFFF;
+opacity: 0.5;
+border-radius: 20px;
+}
+.search{
+  position: absolute;
+  background-color: #FFFFFF;
+border-radius: 17px;
+}
+
+.form{
+  background-color: #FFFFFF;
+}
+.stud{
+  width: 67px;
+  height: 60px;
+  top: 0px;
+}
+.okno {
+  position: absolute;
+  display: flex;
+  height: 30px;
+  left: 20px;
+  top: 60px;
+}
+.name_sur {
+  color: black;
+  font-size: 14.4px;
+  line-height: 16px;
+  margin-top: 25px;
+  font-family: 'Montserrat';
+font-style: normal;
+display: flex;
+flex-direction: column;
+justify-content: center;
 }
