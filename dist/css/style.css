@@ -756,6 +756,8 @@ select {
 .sfia__profile-green {
   margin-left: 13px;
 }
+
+
 .chat_history {
   position: absolute;
   width: 340px;
@@ -767,7 +769,7 @@ select {
   border-radius: 20px;
 }
 .chat_open {
-  position: absolute;
+position: absolute;
 width: 520px;
 height: 570px;
 left: 350px;
@@ -792,12 +794,21 @@ border-radius: 17px;
   top: 0px;
 }
 .okno {
-  position: absolute;
   display: flex;
-  height: 30px;
+  height: 55px;
   left: 20px;
   top: 60px;
+  margin-top:10px;
 }
+
+.okno_chata{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+
 .name_sur {
   color: black;
   font-size: 14.4px;

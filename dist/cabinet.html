@@ -1,135 +1,163 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cabinet</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <style>
-        body {
-           background: url("img/cabinet/cabinet_bg.png") center center/cover no-repeat;
-           display: flex;
-        }
-     </style>
-</head>
-<body>
+      body {
+        background: url("img/cabinet/cabinet_bg.png") center center/cover
+          no-repeat;
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
     <section class="menu">
-        <div class="logo logo_cabinet">HRev</div>
+      <div class="logo logo_cabinet">HRev</div>
 
-        <div class="menu__nav">
-            <div class="menu__nav-list">
-                <ul>
-                    <li class="menu__nav-item menu__nav-item_1 menu__nav-item_active">профиль</li>
-                    <li class="menu__nav-item menu__nav-item_2">SFIA</li>
-                    <li class="menu__nav-item menu__nav-item_3">друзья</li>
-                    <li class="menu__nav-item menu__nav-item_4">чат</li>
-                    <li class="menu__nav-item menu__nav-item_5">настройки</li>
-                    <li class="menu__nav-item menu__nav-item_6">безопасность</li>
-                </ul>
-            </div>
+      <div class="menu__nav">
+        <div class="menu__nav-list">
+          <ul>
+            <li class="menu__nav-item menu__nav-item_1 menu__nav-item_active">
+              профиль
+            </li>
+            <li class="menu__nav-item menu__nav-item_2">SFIA</li>
+            <li class="menu__nav-item menu__nav-item_3">друзья</li>
+            <li class="menu__nav-item menu__nav-item_4">чат</li>
+            <li class="menu__nav-item menu__nav-item_5">настройки</li>
+            <li class="menu__nav-item menu__nav-item_6">безопасность</li>
+          </ul>
         </div>
+      </div>
     </section>
 
-    <section class="menu__contents">
-        
-    </section>
+    <section class="menu__contents"></section>
 
     <div class="profile menu__content menu__content_active">
-        <div class="profile__wrapper">
-            <div class="profile__user">
-                <div class="profile__user__content">
-                    <div class="profile__user-name">Surname Name</div>
-                    <div class="profile__user-data">
-                        mail@gmail.com | 30.06.2002
-                        <br>
-                        город: нур-султан
-                    </div>
-                    <div class="profile__user-specialty">project manager </div>
-                </div>
-                
-                <div class="profile__user-picture">
-                    <img src="img/cabinet/user_photo.png" alt="user picture">
-                    <br>
-                    + изменить фото
-                </div>
+      <div class="profile__wrapper">
+        <div class="profile__user">
+          <div class="profile__user__content">
+            <div class="profile__user-name">Surname Name</div>
+            <div class="profile__user-data">
+              mail@gmail.com | 30.06.2002
+              <br />
+              город: нур-султан
             </div>
+            <div class="profile__user-specialty">project manager</div>
+          </div>
 
-            <div class="profile__stats">
-                <div class="profile__stats-top">
-                    <div class="profile__stats-descr">
-                        <div class="profile__stats-name">Статистика Name Surname</div>
-                        <div class="profile__stats-status">Положительная</div>
-                    </div>
-                    
-                    <select name="date">
-                        <option>Этот месяц</option>
-                    </select>
-                </div>
-
-                <div class="profile__stats__wrapper">
-                    <div class="profile__stats-item">
-                        <div class="profile__stats-item-title">работа в команде</div>
-                        <div class="profile__stats-item-range profile__stats-item-range_first">1/10</div>
-                    </div>
-                    <div class="profile__stats-item">
-                        <div class="profile__stats-item-title">адаптивность</div>
-                        <div class="profile__stats-item-range profile__stats-item-range_second">3/10</div>
-                    </div>
-                    <div class="profile__stats-item">
-                        <div class="profile__stats-item-title">отзывчивость</div>
-                        <div class="profile__stats-item-range profile__stats-item-range_third">8/10</div>
-                    </div>
-                </div>
-            </div>
+          <div class="profile__user-picture">
+            <img src="img/cabinet/user_photo.png" alt="user picture" />
+            <br />
+            + изменить фото
+          </div>
         </div>
+
+        <div class="profile__stats">
+          <div class="profile__stats-top">
+            <div class="profile__stats-descr">
+              <div class="profile__stats-name">Статистика Name Surname</div>
+              <div class="profile__stats-status">Положительная</div>
+            </div>
+
+            <select name="date">
+              <option>Этот месяц</option>
+            </select>
+          </div>
+
+          <div class="profile__stats__wrapper">
+            <div class="profile__stats-item">
+              <div class="profile__stats-item-title">работа в команде</div>
+              <div
+                class="profile__stats-item-range profile__stats-item-range_first"
+              >
+                1/10
+              </div>
+            </div>
+            <div class="profile__stats-item">
+              <div class="profile__stats-item-title">адаптивность</div>
+              <div
+                class="profile__stats-item-range profile__stats-item-range_second"
+              >
+                3/10
+              </div>
+            </div>
+            <div class="profile__stats-item">
+              <div class="profile__stats-item-title">отзывчивость</div>
+              <div
+                class="profile__stats-item-range profile__stats-item-range_third"
+              >
+                8/10
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="sfia menu__content">
-        <div class="sfia__pdf">
-            <div class="sfia__pdf-bg">.pdf</div>
-            <div class="sfia__pdf-download">
-                <div class="sfia__pdf-header">скачать</div>
-                <img src="icons/cabinet/download.svg" alt="download icon" class="sfia__pdf-icon">
-            </div>
+      <div class="sfia__pdf">
+        <div class="sfia__pdf-bg">.pdf</div>
+        <div class="sfia__pdf-download">
+          <div class="sfia__pdf-header">скачать</div>
+          <img
+            src="icons/cabinet/download.svg"
+            alt="download icon"
+            class="sfia__pdf-icon"
+          />
         </div>
-        <div class="sfia__profile">
-            <img src="img/cabinet/user_photo.png" alt="user photo" class="sfia__profile-img">
-            <div class="sfia__profile-name">Surname Name</div>
-            <div class="sfia__profile-descr">
-                <div class="sfia__profile-check">тест пройден</div>
-                <img src="icons/cabinet/checkbox.svg" alt="checkbox" class="sfia__profile-green">
-            </div>
+      </div>
+      <div class="sfia__profile">
+        <img
+          src="img/cabinet/user_photo.png"
+          alt="user photo"
+          class="sfia__profile-img"
+        />
+        <div class="sfia__profile-name">Surname Name</div>
+        <div class="sfia__profile-descr">
+          <div class="sfia__profile-check">тест пройден</div>
+          <img
+            src="icons/cabinet/checkbox.svg"
+            alt="checkbox"
+            class="sfia__profile-green"
+          />
         </div>
-    </div> 
-
-    <div class="menu__nav-item menu__nav-item_3">
-
+      </div>
     </div>
 
-    <div class="menu__nav-item menu__nav-item_4">
-        <div class="chat_history">
+    <div class="menu__nav-item menu__nav-item_3 menu__content">
+      <p>Friends</p>
+    </div>
 
-            <div class="form"> 
-                <input type="text" name="text"  class="search" placeholder="Search">
-            </div>
-                <div class="okno_chata">
-                    <div class="okno">
-             <img src="img/cabinet/user_photo.png" class="stud"> 
-             <div class="name_sur">
-                <a>Name Surname</a>
-                <a>переписка переписка... </a>
-             </div>
-                </div>
-            <hr>
-        </div>  
-
-        <div class="chat_open">
-
+    <div class="menu__nav-item menu__content">
+      <div class="chat_history">
+        <div class="form">
+          <input type="text" name="text" class="search" placeholder="Search" />
         </div>
+        <div class="okno_chata">
+          <div class="okno">
+            <img src="img/cabinet/user_photo.png" class="stud" />
+            <div class="name_sur">
+              <a>Name Surname</a>
+              <a>переписка переписка... </a>
+            </div>
+          </div>
+          <div class="okno">
+            <img src="img/cabinet/user_photo.png" class="stud" />
+            <div class="name_sur">
+              <a>Name Surname</a>
+              <a>переписка переписка... </a>
+            </div>
+          </div>
+        </div>
+        <div class="chat_open"></div>
+      </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>
