@@ -1,149 +1,158 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cabinet</title>
     <link rel="stylesheet" href="css/style.css" />
     <style>
-      body {
+        body {
         background: url("img/cabinet/cabinet_bg.png") center center/cover
           no-repeat;
-        display: flex;
-      }
-    </style>
-  </head>
-  <body>
+           display: flex;
+        }
+     </style>
+</head>
+<body>
     <section class="menu">
-      <div class="logo logo_cabinet">HRev</div>
+        <div class="logo logo_cabinet">HRev</div>
 
-      <div class="menu__nav">
-        <div class="menu__nav-list">
-          <ul>
+        <div class="menu__nav">
+            <div class="menu__nav-list">
+                <ul>
             <li class="menu__nav-item menu__nav-item_1 menu__nav-item_active">
               профиль
             </li>
-            <li class="menu__nav-item menu__nav-item_2">SFIA</li>
-            <li class="menu__nav-item menu__nav-item_3">друзья</li>
-            <li class="menu__nav-item menu__nav-item_4">чат</li>
-            <li class="menu__nav-item menu__nav-item_5">настройки</li>
-            <li class="menu__nav-item menu__nav-item_6">безопасность</li>
-          </ul>
+                    <li class="menu__nav-item menu__nav-item_2">SFIA</li>
+                    <li class="menu__nav-item menu__nav-item_3">друзья</li>
+                    <li class="menu__nav-item menu__nav-item_4">чат</li>
+                    <li class="menu__nav-item menu__nav-item_5">настройки</li>
+                    <li class="menu__nav-item menu__nav-item_6">безопасность</li>
+                </ul>
+            </div>
         </div>
-      </div>
     </section>
 
     <section class="menu__contents"></section>
 
     <div class="profile menu__content menu__content_active">
-      <div class="profile__wrapper">
-        <div class="profile__user">
-          <div class="profile__user__content">
-            <div class="profile__user-name">Surname Name</div>
-            <div class="profile__user-data">
-              mail@gmail.com | 30.06.2002
+        <div class="profile__wrapper">
+            <div class="profile__user">
+                <div class="profile__user__content">
+                    <div class="profile__user-name">Surname Name</div>
+                    <div class="profile__user-data">
+                        mail@gmail.com | 30.06.2002
               <br />
-              город: нур-султан
-            </div>
+                        город: нур-султан
+                    </div>
             <div class="profile__user-specialty">project manager</div>
-          </div>
-
-          <div class="profile__user-picture">
+                </div>
+                
+                <div class="profile__user-picture">
             <img src="img/cabinet/user_photo.png" alt="user picture" />
             <br />
-            + изменить фото
-          </div>
-        </div>
-
-        <div class="profile__stats">
-          <div class="profile__stats-top">
-            <div class="profile__stats-descr">
-              <div class="profile__stats-name">Статистика Name Surname</div>
-              <div class="profile__stats-status">Положительная</div>
+                    + изменить фото
+                </div>
             </div>
 
-            <select name="date">
-              <option>Этот месяц</option>
-            </select>
-          </div>
+            <div class="profile__stats">
+                <div class="profile__stats-top">
+                    <div class="profile__stats-descr">
+                        <div class="profile__stats-name">Статистика Name Surname</div>
+                        <div class="profile__stats-status">Положительная</div>
+                    </div>
+                    
+                    <select name="date">
+                        <option>Этот месяц</option>
+                    </select>
+                </div>
 
-          <div class="profile__stats__wrapper">
-            <div class="profile__stats-item">
-              <div class="profile__stats-item-title">работа в команде</div>
+                <div class="profile__stats__wrapper">
+                    <div class="profile__stats-item">
+                        <div class="profile__stats-item-title">работа в команде</div>
               <div
                 class="profile__stats-item-range profile__stats-item-range_first"
               >
                 1/10
               </div>
-            </div>
-            <div class="profile__stats-item">
-              <div class="profile__stats-item-title">адаптивность</div>
+                    </div>
+                    <div class="profile__stats-item">
+                        <div class="profile__stats-item-title">адаптивность</div>
               <div
                 class="profile__stats-item-range profile__stats-item-range_second"
               >
                 3/10
               </div>
-            </div>
-            <div class="profile__stats-item">
-              <div class="profile__stats-item-title">отзывчивость</div>
+                    </div>
+                    <div class="profile__stats-item">
+                        <div class="profile__stats-item-title">отзывчивость</div>
               <div
                 class="profile__stats-item-range profile__stats-item-range_third"
               >
                 8/10
               </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
 
     <div class="sfia menu__content">
-      <div class="sfia__pdf">
-        <div class="sfia__pdf-bg">.pdf</div>
-        <div class="sfia__pdf-download">
-          <div class="sfia__pdf-header">скачать</div>
+        <div class="sfia__pdf">
+            <div class="sfia__pdf-bg">.pdf</div>
+            <div class="sfia__pdf-download">
+                <div class="sfia__pdf-header">скачать</div>
           <img
             src="icons/cabinet/download.svg"
             alt="download icon"
             class="sfia__pdf-icon"
           />
+            </div>
         </div>
-      </div>
-      <div class="sfia__profile">
+        <div class="sfia__profile">
         <img
           src="img/cabinet/user_photo.png"
           alt="user photo"
           class="sfia__profile-img"
         />
-        <div class="sfia__profile-name">Surname Name</div>
-        <div class="sfia__profile-descr">
-          <div class="sfia__profile-check">тест пройден</div>
+            <div class="sfia__profile-name">Surname Name</div>
+            <div class="sfia__profile-descr">
+                <div class="sfia__profile-check">тест пройден</div>
           <img
             src="icons/cabinet/checkbox.svg"
             alt="checkbox"
             class="sfia__profile-green"
           />
+            </div>
         </div>
-      </div>
-    </div>
+    </div> 
 
     <div class="menu__nav-item menu__nav-item_3 menu__content">
       <p>Friends</p>
     </div>
 
     <div class="menu__nav-item menu__content">
-      <div class="chat_history">
+      <div class="tbar">
+      <img src="icons/cabinet/Rectangle 1.svg" class="manph">
+      <img src="icons/cabinet/Vector 2.svg" class="v2">
+      <img src="icons/cabinet/Vector 1.svg" class="v1">
+      <svg width="42" height="39" viewBox="0 0 42 39" fill="none" xmlns="http://www.w3.org/2000/svg" class="r8">
+       <rect opacity="0.1" width="42" height="39" rx="5" fill="#5E369E"/></svg>
+       <img src="icons/cabinet/icons8-notification-96.png" class="ic8">
+      </div>
+        <div class="chat_history">
         <div class="form_of_search">
           <svg
-            width="24"
-            height="13"
+            width="27"
+            height="16"
             viewBox="0 0 27 16"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
+
             <line
-              x1="26.25"
+              x1="30.25"
               y1="0.75"
               x2="0.75"
               y2="0.75"
@@ -152,7 +161,7 @@
               stroke-linecap="round"
             />
             <line
-              x1="26.25"
+              x1="30.25"
               y1="7.75"
               x2="0.75"
               y2="7.75"
@@ -161,7 +170,7 @@
               stroke-linecap="round"
             />
             <line
-              x1="26.25"
+              x1="30.25"
               y1="14.75"
               x2="0.75"
               y2="14.75"
@@ -170,42 +179,71 @@
               stroke-linecap="round"
             />
           </svg>
-
+                    
           <input
             type="text"
             name="text"
             class="search"
-            placeholder="    Search"
+            placeholder="          поиск"
+            
+            
           />
-        </div>
+          <img src="icons/cabinet/search.png" class="izdeu">
+                </div>
         <div class="okno_chata">
           <div class="okno">
             <img src="img/cabinet/user_photo.png" class="stud" />
             <div class="name_sur">
-              <a>Name Surname</a>
-              <a>переписка переписка... </a>
-            </div>
-          </div>
+              <a class="names">Name Surname</a>
+              <a class="perep">переписка переписка... </a>
+                    </div>
+                </div>
+                <hr class="line">
           <div class="okno">
             <img src="img/cabinet/user_photo.png" class="stud" />
             <div class="name_sur">
               <a>Name Surname</a>
-              <a>переписка переписка... </a>
+              <a class="perep">переписка переписка... </a>
             </div>
           </div>
-          <div class="okno">
+          <hr class="line">
+                <div class="okno">
             <img src="img/cabinet/user_photo.png" class="stud" />
-            <div class="name_sur">
-              <a>Name Surname</a>
-              <a>переписка переписка... </a>
-            </div>
-          </div>
+                        <div class="name_sur">
+                            <a>Name Surname</a>
+                            <a class="perep">переписка переписка... </a>
+                        </div>
+                    </div>
+                    <hr class="line">
+                    <div class="okno">
+                      <img src="img/cabinet/user_photo.png" class="stud" />
+                      <div class="name_sur">
+                        <a>Name Surname</a>
+                        <a class="perep">переписка переписка... </a>
+                      </div>
+                    </div>
+                    <hr class="line">
+                    <div class="okno">
+                      <img src="img/cabinet/user_photo.png" class="stud" />
+                      <div class="name_sur">
+                        <a>Name Surname</a>
+                        <a class="perep">переписка переписка... </a>
+                      </div>
+                    </div>
+                    <hr class="line">
+            </div> 
+
+        <div class="chat_open">
+          <p class="emoji"> \(^Д^)/ </p>
+          <p class="chto"> ой, что-то совсем пусто</p>
+          <p class="nachnite">начните переписку</p>
         </div>
-        <div class="chat_open"></div>
+
+        
       </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="js/script.js"></script>
-  </body>
+</body>
 </html>
