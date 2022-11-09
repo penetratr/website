@@ -1,132 +1,133 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cabinet</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="src\scss\blocks\test.scss" />
     <style>
-        body {
+      body {
         background: url("img/cabinet/cabinet_bg.png") center center/cover
           no-repeat;
-           display: flex;
-        }
-     </style>
-</head>
-<body>
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
     <section class="menu">
-        <div class="logo logo_cabinet">HRev</div>
+      <div class="logo logo_cabinet">HRev</div>
 
-        <div class="menu__nav">
-            <div class="menu__nav-list">
-                <ul>
+      <div class="menu__nav">
+        <div class="menu__nav-list">
+          <ul>
             <li class="menu__nav-item menu__nav-item_1 menu__nav-item_active">
               профиль
             </li>
-                    <li class="menu__nav-item menu__nav-item_2">SFIA</li>
-                    <li class="menu__nav-item menu__nav-item_3">друзья</li>
-                    <li class="menu__nav-item menu__nav-item_4">чат</li>
-                    <li class="menu__nav-item menu__nav-item_5">настройки</li>
-                    <li class="menu__nav-item menu__nav-item_6">безопасность</li>
-                </ul>
-            </div>
+            <li class="menu__nav-item menu__nav-item_2">SFIA</li>
+            <li class="menu__nav-item menu__nav-item_3">друзья</li>
+            <li class="menu__nav-item menu__nav-item_4">чат</li>
+            <li class="menu__nav-item menu__nav-item_5">настройки</li>
+            <li class="menu__nav-item menu__nav-item_6">безопасность</li>
+          </ul>
         </div>
+      </div>
     </section>
 
     <section class="menu__contents"></section>
 
     <div class="profile menu__content menu__content_active">
-        <div class="profile__wrapper">
-            <div class="profile__user">
-                <div class="profile__user__content">
-                    <div class="profile__user-name">Surname Name</div>
-                    <div class="profile__user-data">
-                        mail@gmail.com | 30.06.2002
+      <div class="profile__wrapper">
+        <div class="profile__user">
+          <div class="profile__user__content">
+            <div class="profile__user-name">Surname Name</div>
+            <div class="profile__user-data">
+              mail@gmail.com | 30.06.2002
               <br />
-                        город: нур-султан
-                    </div>
+              город: нур-султан
+            </div>
             <div class="profile__user-specialty">project manager</div>
-                </div>
-                
-                <div class="profile__user-picture">
+          </div>
+
+          <div class="profile__user-picture">
             <img src="img/cabinet/user_photo.png" alt="user picture" />
             <br />
-                    + изменить фото
-                </div>
+            + изменить фото
+          </div>
+        </div>
+
+        <div class="profile__stats">
+          <div class="profile__stats-top">
+            <div class="profile__stats-descr">
+              <div class="profile__stats-name">Статистика Name Surname</div>
+              <div class="profile__stats-status">Положительная</div>
             </div>
 
-            <div class="profile__stats">
-                <div class="profile__stats-top">
-                    <div class="profile__stats-descr">
-                        <div class="profile__stats-name">Статистика Name Surname</div>
-                        <div class="profile__stats-status">Положительная</div>
-                    </div>
-                    
-                    <select name="date">
-                        <option>Этот месяц</option>
-                    </select>
-                </div>
+            <select name="date">
+              <option>Этот месяц</option>
+            </select>
+          </div>
 
-                <div class="profile__stats__wrapper">
-                    <div class="profile__stats-item">
-                        <div class="profile__stats-item-title">работа в команде</div>
+          <div class="profile__stats__wrapper">
+            <div class="profile__stats-item">
+              <div class="profile__stats-item-title">работа в команде</div>
               <div
                 class="profile__stats-item-range profile__stats-item-range_first"
               >
                 1/10
               </div>
-                    </div>
-                    <div class="profile__stats-item">
-                        <div class="profile__stats-item-title">адаптивность</div>
+            </div>
+            <div class="profile__stats-item">
+              <div class="profile__stats-item-title">адаптивность</div>
               <div
                 class="profile__stats-item-range profile__stats-item-range_second"
               >
                 3/10
               </div>
-                    </div>
-                    <div class="profile__stats-item">
-                        <div class="profile__stats-item-title">отзывчивость</div>
+            </div>
+            <div class="profile__stats-item">
+              <div class="profile__stats-item-title">отзывчивость</div>
               <div
                 class="profile__stats-item-range profile__stats-item-range_third"
               >
                 8/10
               </div>
-                    </div>
-                </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <div class="sfia menu__content">
-        <div class="sfia__pdf">
-            <div class="sfia__pdf-bg">.pdf</div>
-            <div class="sfia__pdf-download">
-                <div class="sfia__pdf-header">скачать</div>
+      <div class="sfia__pdf">
+        <div class="sfia__pdf-bg">.pdf</div>
+        <div class="sfia__pdf-download">
+          <div class="sfia__pdf-header">скачать</div>
           <img
             src="icons/cabinet/download.svg"
             alt="download icon"
             class="sfia__pdf-icon"
           />
-            </div>
         </div>
-        <div class="sfia__profile">
+      </div>
+      <div class="sfia__profile">
         <img
           src="img/cabinet/user_photo.png"
           alt="user photo"
           class="sfia__profile-img"
         />
-            <div class="sfia__profile-name">Surname Name</div>
-            <div class="sfia__profile-descr">
-                <div class="sfia__profile-check">тест пройден</div>
+        <div class="sfia__profile-name">Surname Name</div>
+        <div class="sfia__profile-descr">
+          <div class="sfia__profile-check">тест пройден</div>
           <img
             src="icons/cabinet/checkbox.svg"
             alt="checkbox"
             class="sfia__profile-green"
           />
-            </div>
         </div>
-    </div> 
+      </div>
+    </div>
 
     <div class="menu__nav-item menu__nav-item_3 menu__content">
       <p>Friends</p>
@@ -134,14 +135,22 @@
 
     <div class="menu__nav-item menu__content">
       <div class="tbar">
-      <img src="icons/cabinet/Rectangle 1.svg" class="manph">
-      <img src="icons/cabinet/Vector 2.svg" class="v2">
-      <img src="icons/cabinet/Vector 1.svg" class="v1">
-      <svg width="42" height="39" viewBox="0 0 42 39" fill="none" xmlns="http://www.w3.org/2000/svg" class="r8">
-       <rect opacity="0.1" width="42" height="39" rx="5" fill="#5E369E"/></svg>
-       <img src="icons/cabinet/icons8-notification-96.png" class="ic8">
+        <img src="icons/cabinet/Rectangle 1.svg" class="manph" />
+        <img src="icons/cabinet/Vector 2.svg" class="v2" />
+        <img src="icons/cabinet/Vector 1.svg" class="v1" />
+        <svg
+          width="42"
+          height="39"
+          viewBox="0 0 42 39"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          class="r8"
+        >
+          <rect opacity="0.1" width="42" height="39" rx="5" fill="#5E369E" />
+        </svg>
+        <img src="icons/cabinet/icons8-notification-96.png" class="ic8" />
       </div>
-        <div class="chat_history">
+      <div class="chat_history">
         <div class="form_of_search">
           <svg
             width="27"
@@ -150,7 +159,6 @@
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-
             <line
               x1="30.25"
               y1="0.75"
@@ -179,71 +187,118 @@
               stroke-linecap="round"
             />
           </svg>
-                    
+
           <input
             type="text"
             name="text"
             class="search"
             placeholder="          поиск"
-            
-            
           />
-          <img src="icons/cabinet/search.png" class="izdeu">
-                </div>
+          <img src="icons/cabinet/search.png" class="izdeu" />
+        </div>
         <div class="okno_chata">
-          <div class="okno">
+          <div class="okno btn">
             <img src="img/cabinet/user_photo.png" class="stud" />
             <div class="name_sur">
               <a class="names">Name Surname</a>
               <a class="perep">переписка переписка... </a>
-                    </div>
-                </div>
-                <hr class="line">
-          <div class="okno">
+            </div>
+          </div>
+          <hr class="line" />
+          <div id="open_chat" class="okno btn chat_content">
             <img src="img/cabinet/user_photo.png" class="stud" />
             <div class="name_sur">
               <a>Name Surname</a>
               <a class="perep">переписка переписка... </a>
             </div>
           </div>
-          <hr class="line">
-                <div class="okno">
+          <hr class="line" />
+          <div class="okno btn">
             <img src="img/cabinet/user_photo.png" class="stud" />
-                        <div class="name_sur">
-                            <a>Name Surname</a>
-                            <a class="perep">переписка переписка... </a>
-                        </div>
-                    </div>
-                    <hr class="line">
-                    <div class="okno">
-                      <img src="img/cabinet/user_photo.png" class="stud" />
-                      <div class="name_sur">
-                        <a>Name Surname</a>
-                        <a class="perep">переписка переписка... </a>
-                      </div>
-                    </div>
-                    <hr class="line">
-                    <div class="okno">
-                      <img src="img/cabinet/user_photo.png" class="stud" />
-                      <div class="name_sur">
-                        <a>Name Surname</a>
-                        <a class="perep">переписка переписка... </a>
-                      </div>
-                    </div>
-                    <hr class="line">
-            </div> 
-
-        <div class="chat_open">
-          <p class="emoji"> \(^Д^)/ </p>
-          <p class="chto"> ой, что-то совсем пусто</p>
-          <p class="nachnite">начните переписку</p>
+            <div class="name_sur">
+              <a>Name Surname</a>
+              <a class="perep">переписка переписка... </a>
+            </div>
+          </div>
+          <hr class="line" />
+          <div class="okno btn">
+            <img src="img/cabinet/user_photo.png" class="stud" />
+            <div class="name_sur">
+              <a>Name Surname</a>
+              <a class="perep">переписка переписка... </a>
+            </div>
+          </div>
+          <hr class="line" />
+          <div class="okno btn">
+            <img src="img/cabinet/user_photo.png" class="stud" />
+            <div class="name_sur">
+              <a>Name Surname</a>
+              <a class="perep">переписка переписка... </a>
+            </div>
+          </div>
+          <hr class="line" />
         </div>
 
-        
+        <div class="chatopen">
+          <p class="emoji">\(^Д^)/</p>
+          <p class="chto">ой, что-то совсем пусто</p>
+          <p class="nachnite">начните переписку</p>
+        </div>
+        <div class="chat_open_active">
+          <div class="text_line_block">
+            <div class="download">
+              <svg
+                width="23"
+                height="23"
+                viewBox="0 0 29 29"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.1406 22.0672V5.25625L7.70312 10.6937L5.75469 8.74531L14.5 0L23.2453 8.74531L21.2969 10.6937L15.8594 5.25625V22.0672H13.1406ZM2.71875 29C1.99375 29 1.35937 28.7281 0.815625 28.1844C0.271875 27.6406 0 27.0063 0 26.2812V19.8016H2.71875V26.2812H26.2812V19.8016H29V26.2812C29 27.0063 28.7281 27.6406 28.1844 28.1844C27.6406 28.7281 27.0063 29 26.2812 29H2.71875Z"
+                  fill="#282525"
+                />
+              </svg>
+            </div>
+            <div class="text_line_box">
+              <svg
+                width="25"
+                height="30"
+                viewBox="0 0 29 29"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19.7925 12.5788C20.3483 12.5788 20.8135 12.3915 21.1881 12.0169C21.5627 11.6423 21.75 11.1771 21.75 10.6213C21.75 10.0654 21.5627 9.60021 21.1881 9.22563C20.8135 8.85104 20.3483 8.66375 19.7925 8.66375C19.2367 8.66375 18.7715 8.85104 18.3969 9.22563C18.0223 9.60021 17.835 10.0654 17.835 10.6213C17.835 11.1771 18.0223 11.6423 18.3969 12.0169C18.7715 12.3915 19.2367 12.5788 19.7925 12.5788ZM9.2075 12.5788C9.76333 12.5788 10.2285 12.3915 10.6031 12.0169C10.9777 11.6423 11.165 11.1771 11.165 10.6213C11.165 10.0654 10.9777 9.60021 10.6031 9.22563C10.2285 8.85104 9.76333 8.66375 9.2075 8.66375C8.65167 8.66375 8.18646 8.85104 7.81187 9.22563C7.43729 9.60021 7.25 10.0654 7.25 10.6213C7.25 11.1771 7.43729 11.6423 7.81187 12.0169C8.18646 12.3915 8.65167 12.5788 9.2075 12.5788ZM14.5 22.4388C16.095 22.4388 17.5631 22.0098 18.9044 21.1519C20.2456 20.294 21.2183 19.1279 21.8225 17.6538H7.1775C7.80583 19.1279 8.78458 20.294 10.1138 21.1519C11.4429 22.0098 12.905 22.4388 14.5 22.4388ZM14.5 29C12.5183 29 10.6454 28.6194 8.88125 27.8581C7.11708 27.0969 5.57646 26.0577 4.25938 24.7406C2.94229 23.4235 1.90312 21.8829 1.14187 20.1188C0.380625 18.3546 0 16.4696 0 14.4638C0 12.4821 0.380625 10.6092 1.14187 8.845C1.90312 7.08083 2.94229 5.54625 4.25938 4.24125C5.57646 2.93625 7.11708 1.90312 8.88125 1.14187C10.6454 0.380625 12.5304 0 14.5363 0C16.5179 0 18.3908 0.380625 20.155 1.14187C21.9192 1.90312 23.4538 2.93625 24.7588 4.24125C26.0638 5.54625 27.0969 7.08083 27.8581 8.845C28.6194 10.6092 29 12.4942 29 14.5C29 16.4817 28.6194 18.3546 27.8581 20.1188C27.0969 21.8829 26.0638 23.4235 24.7588 24.7406C23.4538 26.0577 21.9192 27.0969 20.155 27.8581C18.3908 28.6194 16.5058 29 14.5 29ZM14.5 26.825C17.9317 26.825 20.8438 25.6227 23.2362 23.2181C25.6287 20.8135 26.825 17.9075 26.825 14.5C26.825 11.0683 25.6287 8.15625 23.2362 5.76375C20.8438 3.37125 17.9317 2.175 14.5 2.175C11.0925 2.175 8.18646 3.37125 5.78188 5.76375C3.37729 8.15625 2.175 11.0683 2.175 14.5C2.175 17.9075 3.37729 20.8135 5.78188 23.2181C8.18646 25.6227 11.0925 26.825 14.5 26.825Z"
+                  fill="#282525"
+                />
+              </svg>
+              <input type="text" placeholder="Сообщение" class="text_line" />
+              <svg
+                width="25"
+                height="28"
+                viewBox="0 0 20 27"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10 16.2355C8.97619 16.2355 8.11905 15.8684 7.42857 15.1342C6.7381 14.4 6.39286 13.5118 6.39286 12.4697V3.55263C6.39286 2.55789 6.74405 1.71711 7.44643 1.03026C8.14881 0.343421 9 0 10 0C11 0 11.8512 0.343421 12.5536 1.03026C13.256 1.71711 13.6071 2.55789 13.6071 3.55263V12.4697C13.6071 13.5118 13.2619 14.4 12.5714 15.1342C11.881 15.8684 11.0238 16.2355 10 16.2355ZM8.92857 27V22.1684C6.40476 21.9079 4.28571 20.8539 2.57143 19.0066C0.857143 17.1592 0 14.9803 0 12.4697H2.14286C2.14286 14.625 2.91071 16.4368 4.44643 17.9053C5.98214 19.3737 7.83333 20.1079 10 20.1079C12.1667 20.1079 14.0179 19.3737 15.5536 17.9053C17.0893 16.4368 17.8571 14.625 17.8571 12.4697H20C20 14.9803 19.1429 17.1592 17.4286 19.0066C15.7143 20.8539 13.5952 21.9079 11.0714 22.1684V27H8.92857ZM10 14.1039C10.4286 14.1039 10.7798 13.9441 11.0536 13.6243C11.3274 13.3046 11.4643 12.9197 11.4643 12.4697V3.55263C11.4643 3.15 11.3214 2.8125 11.0357 2.54013C10.75 2.26776 10.4048 2.13158 10 2.13158C9.59524 2.13158 9.25 2.26776 8.96429 2.54013C8.67857 2.8125 8.53572 3.15 8.53572 3.55263V12.4697C8.53572 12.9197 8.67262 13.3046 8.94643 13.6243C9.22024 13.9441 9.57143 14.1039 10 14.1039Z"
+                  fill="#282525"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="js/script.js"></script>
-</body>
+    <script src="js/addition.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

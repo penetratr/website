@@ -100,6 +100,12 @@ ul {
             height: 60px;
             font-size: 28px;
         }
+        &:focus {
+            background: #fff;
+        }
+        &[aria-pressed="true"] {
+            background-color: #e4e4e4;
+        }
     }
     
     .logo {

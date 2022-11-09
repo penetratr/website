@@ -1,0 +1,8 @@
+.btn {
+	&:focus {
+		background: #fff;
+	}
+	&[aria-pressed="true"] {
+		background-color: #e4e4e4;
+	}
+}

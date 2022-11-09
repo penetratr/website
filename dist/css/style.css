@@ -768,17 +768,34 @@ select {
   background: rgb(255,255,255,0.5);
   border-radius: 20px;
 }
-.chat_open {
-position: absolute;
-width: 520px;
-height: 570px;
-left: 350px;
-top: 0px;
 
-background: #FFFFFF;
-opacity: 0.5;
-border-radius: 20px;
+.chatopen {
+  position: absolute;
+  width: 520px;
+  height: 570px;
+  left: 350px;
+  top: 0px;
+  opacity: 0.5;
+  
+  background: #FFFFFF;
+  border-radius: 20px;
 }
+
+.chat_open_active {
+  position: absolute;
+  width: 520px;
+  height: 570px;
+  left: 350px;
+  top: 0px;
+  opacity: 0.5;
+  
+  background: #FFFFFF;
+  visibility: hidden;
+  border-radius: 20px;
+}
+
+
+
 .search{
   background: rgba(255, 255, 255, 0.5);
   border-radius: 17px;
@@ -808,6 +825,16 @@ border-radius: 20px;
   top: 60px;
   margin-left: 35px;
   width: 275px;
+}
+
+.okno:hover {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+}
+
+.okno:active{
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
 }
 
 .okno_chata{
@@ -919,4 +946,50 @@ height: 30px;
 height: 16px;
 left: 77px;
 top: 20px;
+}
+
+
+.text_line_block{
+  background : black;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text_line_box{
+  background: rgba(255, 255, 255, 1);
+  position: absolute;
+  width: 440px;
+  height: 35px;
+  bottom: 0;
+  border-radius: 10px;
+  margin-left: 60px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.text_line{
+  background: rgba(255, 255, 255, 1);
+  width: 370px;
+  height: 35px;
+  bottom: 0;
+  border-radius: 10px;
+  border-style: none;
+}
+
+.download{
+position: absolute;
+width: 50px;
+height: 35px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+background: rgba(255, 255, 255, 0.5);
+border-radius: 10px;
 }
