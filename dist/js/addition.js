@@ -12,6 +12,10 @@ document.querySelector(".download").addEventListener("click", function(){
         document.querySelector(".download_two_button").style.visibility = "visible";
     }
 })
+document.querySelector("input").addEventListener("click", 
+function lost_border(){
+    document.querySelector("input").style.borderColor = "white";
+})
 
 
 

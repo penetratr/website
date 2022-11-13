@@ -1071,3 +1071,7 @@ opacity: 1;
 .micro{
   margin-right: 3%;
 }
+
+input:focus {
+outline: none;
+}
