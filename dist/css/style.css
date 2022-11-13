@@ -798,8 +798,8 @@ select {
 .search{
   background: rgba(255, 255, 255, 0.5);
   border-radius: 17px;
-  margin: 5px 0 0 15px;
-  width: 250px;
+  margin: 5px 10px 0 20px;
+  width: 215px;
   height: 25px;
   border:none;
 }
@@ -942,7 +942,7 @@ height: 30px;
   position: absolute;
   width: 16px;
 height: 16px;
-left: 77px;
+left: 109px;
 top: 20px;
 }
 
@@ -1070,4 +1070,10 @@ opacity: 1;
 }
 .micro{
   margin-right: 3%;
+}
+.poloski{
+  width: 23px;
+  height: 13px;
+  margin-left: 9%;
+  margin-top: 1%;
 }
