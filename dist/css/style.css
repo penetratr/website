@@ -1077,3 +1077,111 @@ opacity: 1;
   margin-left: 9%;
   margin-top: 1%;
 }
+.Hrev{
+position: absolute;
+justify-content: center;
+align-items: center;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 200px;
+line-height: 90.6%;
+/* or 181px */
+
+
+color: rgba(0, 0, 0, 0.05);
+
+opacity: 0.5;
+}
+.numbox{
+  width: 35%;
+  height: 50%;
+background: rgba(255, 255, 255, 0.5);
+backdrop-filter: blur(15px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 20px;
+}
+.vvedite{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-top: 37px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 550;
+font-size: 25px;
+line-height: 37px;
+/* identical to box height */
+
+
+color: #282525;
+}
+.inf{
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+margin-top: 25px;
+
+color: #282525;
+
+opacity: 0.5;
+}
+.inputn{
+display: flex;  
+width: 30%;
+height: 20px;
+align-items: center;
+justify-content: center;
+background: rgba(255, 255, 255, 0.5);
+border-radius: 10px;
+outline: none;
+border: none;
+}
+
+.Phone_number{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.continue{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat';
+  width: 34%;
+  height: 9%;
+  margin-top: 5%;
+  margin-left: 33%;
+background: linear-gradient(85.85deg, rgba(204, 206, 225, 0.7) 6.34%, rgba(185, 152, 238, 0.7) 92.17%), #324EE1;
+border-radius: 20px;
+}
+.infor{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 14px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #282525;
+
+opacity: 0.5;
+}
