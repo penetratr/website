@@ -957,6 +957,7 @@ top: 20px;
   bottom: 0;
   display: flex;
   justify-content: space-between;
+  margin: 0 0 0 10px;
 }
 
 .text_line_box{
@@ -992,4 +993,43 @@ align-items: center;
 
 background: rgba(255, 255, 255, 0.5);
 border-radius: 10px;
+}
+
+
+.download_two_button{
+  position: absolute;
+  bottom: 50px;
+  width: 170px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(50, 50, 50, 0.5);
+  border-radius: 16px;
+  margin: 0 0 10px 10px;
+  visibility: hidden;
+}
+.download_icon{
+  width: 23px;
+  height:23px;
+}
+.download_icon_button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.download_icon_button:nth-child(2n){
+  margin-top: 10px;
+}
+
+.download_text_style{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  margin-left: 10px;
 }
