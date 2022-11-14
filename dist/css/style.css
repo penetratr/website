@@ -1147,6 +1147,7 @@ background: rgba(255, 255, 255, 0.5);
 border-radius: 10px;
 outline: none;
 border: none;
+padding-left: 5px;
 }
 
 .Phone_number{
@@ -1173,6 +1174,8 @@ border-radius: 20px;
   align-items: center;
   justify-content: center;
   margin-top: 5%;
+  cursor: pointer;
+
 
 font-family: 'Montserrat';
 font-style: normal;
@@ -1195,4 +1198,100 @@ opacity: 0.5;
   justify-content: space-between;
   align-items: center;
   border-radius: 17px;
+}
+.footer_reg{
+  flex-direction: column;
+  position: absolute;
+  text-align: right;
+  right: 90px;
+  bottom: 40px;
+}
+.footer_reg_links{
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+.footer_credentialr{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: right;
+}
+.code{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+.inputcode{
+  display: flex;  
+width: 250px;
+height: 40px;
+align-items: center;
+justify-content: center;
+background: rgba(255, 255, 255, 0.5);
+border-radius: 10px;
+outline: none;
+border: none;
+padding-left: 10px;
+}
+.numbox1{
+  width: 33%;
+  height: 73%;
+background: rgba(255, 255, 255, 0.5);
+backdrop-filter: blur(15px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 20px;
+}
+.fullcode{
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  height: 220px;
+  align-items: center;
+
+}
+.inputany{
+  display: flex;  
+width: 290px;
+height: 46px;
+align-items: center;
+justify-content: center;
+background: rgba(255, 255, 255, 0.5);
+border-radius: 10px;
+outline: none;
+border: none;
+padding-left: 10px;
+}
+.numbox2{
+  width: 33%;
+  height: 65%;
+background: rgba(255, 255, 255, 0.5);
+backdrop-filter: blur(15px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 20px;
+}
+.fullcoder{
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  height: 170px;
+  align-items: center;
+}
+.voiti_but{
+  cursor: pointer;
+}
+.voiti_t{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  
+  color: #FFFFFF;
 }

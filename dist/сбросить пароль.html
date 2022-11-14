@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Registration</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сбросить пароль</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="src\scss\blocks\test.scss" />
     <style>
@@ -22,19 +22,16 @@
 <body>
     <p class="Hrev">HRevHRevHRe<br>
        HRevHRevHRe</p>
-       <div class="numbox">
-        <p class="vvedite">введите номер</p>
-        <p class="inf">ваш номер телефона будет<br>
-        использоваться для входа в аккаунт</p>
-        <div class="Phone_number">
-            <a>+7</a>
-        <input type="tel" name="tel" id="phoneNumber" maxlength="16"   class="inputn">
+       <div class="numbox2">
+        <p class="vvedite">сброс пароля</p>
+        <p class="inf">введите новый пароль</p>
+        <div class="fullcoder">
+        <input type="password" name="Code" id="Code" maxlength="20" class="inputany" placeholder="пароль">
+        <input type="password" name="Code" id="Code" maxlength="16" class="inputany" placeholder="подтверждение пароля">
+        <input type="text" name="Code" id="Code" maxlength="16" class="inputany" placeholder="код верификации">
         </div>
-        <button type="button" class="continue" onclick="window.location.href='kod_page.html';">продолжить</button>
-        <p class="infor">нажимая «продолжить», вы принимаете пользовательское<br>
-            соглашение и политику конфиденциальности.</p>
+        <button type="button" class="continue"><p class="voiti_t">сбросить пароль</p></button>
        </div>
-       <script src="js/phone_number.js"></script>
        <div class="footer_reg">
         <div class="footer_reg_links">
             <a href="#" class="footer_s"><img src="icons/insta1.svg" alt="instagram"></a>
